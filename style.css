@@ -1,0 +1,55 @@
+input{
+    width: 20rem;
+    --border-radius: 2rem;
+
+}
+
+/* .affichage {
+    display: flex;
+    justify-content: center;
+    
+} */
+.carte {
+    width: 400px;
+    height: auto;
+    position: relative;
+    padding-bottom: 20px;
+    border-radius: 5px;
+    background: #f1f1f1;
+    display: flex;
+}
+.avatar {
+    
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #000;
+    border: 1px solid #000;
+}
+.cont-infos {
+    border-top: 1px dashed #000;
+    margin-top: 20px;
+    list-style-type: none;
+}
+li {
+    padding: 10px 20px;
+    text-align: justify;
+    font-size: 22px;
+    list-style: none;
+
+}
+/* .salo{
+    display: flex;
+    justify-content: space-between;
+} */
+a{
+    text-decoration: none;
+    color: black;
+}
+button{
+    color: white;
+   background-color: rgb(14, 151, 167);
+}
